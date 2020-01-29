@@ -14,6 +14,21 @@ $ ssh-add
 
 2. https://help.github.com/en/github/authenticating-to-github/error-permission-denied-publickey
 
+#### [git 设置了ssh key 还是需要输入账户和密码](https://www.cnblogs.com/blogxiao/p/10762070.html)
+
+参考这篇文章https://blog.csdn.net/shahuhu000/article/details/86625987
+
+git remote remove origin
+git remote add origin git@github.com:Username/Your_Repo_Name.git
+
+
+
+#### 小抄
+
+https://gitee.com/liaoxuefeng/learn-java/raw/master/teach/git-cheatsheet.pdf
+
+
+
 关于SSH
   使用SSH协议，你可以连接并且验证到远程服务器和服务。使用SSH Key,你可以不用每次提供你的用户名和密码就可以连接到GitHub。
 
